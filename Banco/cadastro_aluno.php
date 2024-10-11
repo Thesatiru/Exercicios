@@ -6,7 +6,7 @@ $celular_aluno = $_POST ["celular_aluno"];
 
 
 $sql = "INSERT INTO cadastro_alunos (nome_aluno, email_aluno, celular_aluno)
-    VALUES ('$nome_aluno', '$email_aluno','$celular_aluno');";
+    VALUES ('$nome_aluno', '$email_aluno','$celular_aluno')";
 
     if (mysqli_query($conexao, $sql)) 
     {
