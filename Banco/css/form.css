@@ -1,0 +1,13 @@
+/* 
+CSS para formulario de cadastro
+programador: Rafael Lana dos Santos
+Versão 1.0
+Data 04/10/2024
+*/
+#meuID {
+    /*Propriedade para mudar a cor da fonte*/
+    color: rgb(150, 9, 245);
+}
+.minhaClasse {
+    color: rgb(231, 228, 233);
+}
