@@ -20,7 +20,9 @@ $resultado = mysqli_query($conexao,$sql_listar);
         <thead>
             <th>Nome:</th>
             <th>Email:</th>
-            <th>Celular:</th>             
+            <th>Celular:</th>
+            <th>Atualizar</th>
+            <th><a href="excluir_cadastro.php">Excluir</a></th>             
         </thead>
         <tbody>
             <?php 
@@ -30,6 +32,8 @@ $resultado = mysqli_query($conexao,$sql_listar);
                 <td><?php echo $dados['nome_aluno']; ?></td>
                 <td><?php echo $dados['email_aluno'];?></td>
                 <td><?php echo $dados['celular_aluno'];?></td>
+                <td>Atualizar</td>
+                <td>Excluir</td>
                 <?php endwhile; ?>
             <tr>
         </tbody>
