@@ -23,28 +23,11 @@ $resultado = mysqli_query($conexao,$sql_listar);
             <th>Nome:</th>
             <th>Email:</th>
             <th>Celular:</th>
-<<<<<<< HEAD:Banco/listar_cadastro_alunos.php
-            <th>Atualizar</th>
-            <th><a href="excluir_cadastro.php">Excluir</a></th>             
-        </thead>
-        <tbody>
-            <?php 
-            while($dados = mysqli_fetch_assoc($resultado)):            
-            ?>
-            <tr>
-                <td><?php echo $dados['nome_aluno']; ?></td>
-                <td><?php echo $dados['email_aluno'];?></td>
-                <td><?php echo $dados['celular_aluno'];?></td>
-                <td>Atualizar</td>
-                <td>Excluir</td>
-                <?php endwhile; ?>
-=======
         </thead>
         <tbody>
                 <?php 
                 while ($dados = mysqli_fetch_assoc($resultado)):
                 ?>
->>>>>>> 0d3e827d18b70eab4ce818c2a1178f41877b8c15:Banco/listar_cadastro_aluno.php
             <tr>
                 <td><?php echo $dados ['nome_aluno']; ?></td>
                 <td><?php echo $dados ['email_aluno']; ?></td>
