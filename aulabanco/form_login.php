@@ -54,7 +54,7 @@ ob_end_flush();
         <input type="text" name="email_aluno" id="nome_aluno">
         </p>
         <label for="text">Senha:</label>
-        <input type="text" name="senha_aluno" id="senha_aluno">
+        <input type="password" name="senha_aluno" id="senha_aluno">
         <button type="submit" name="entrar">Entrar</button> 
     </form>
     

@@ -27,14 +27,15 @@ $dados_id = mysqli_fetch_assoc($resultado_consulta_por_id);
     <div class="minhaclasse"></div>
         <h3>Formulario de atualização</h3>
         <form action="atualizar_cadastro_aluno.php" method="post">
+        
+        <input type="hidden" name="id_aluno" value= <?php echo $dados_id['id'] ?>>
+
         <label for="nome_aluno">Digite o seu Nome:</label>
-        <input type="text" name="nome_aluno" id="nome_aluno" value= <?php echo $dados_id['nome_aluno'] ?>>
+        <input type="text" name="nome_aluno" id="" value= <?php echo $dados_id['nome_aluno'] ?>>
         <label for="email_aluno">Digite o seu Email:</label>
-        <input type="text" name="email_aluno" id="email_aluno"value= <?php echo $dados_id['email_aluno'] ?>>
-        <label for="senha_aluno">Digite sua senha:</label>
-        <input type="text" name="senha_aluno" id="senha_aluno"value= <?php echo $dados_id['senha_aluno'] ?>>
+        <input type="text" name="email_aluno" id=""value= <?php echo $dados_id['email_aluno'] ?>>
         <label for="celular_aluno">Número de celular:</label>
-        <input type="text" name="celular_aluno" id="celular_aluno"value= <?php echo $dados_id['celular_aluno'] ?>>
+        <input type="text" name="celular_aluno" id=""value= <?php echo $dados_id['celular_aluno'] ?>>
         <input type="submit" value="Atualizar">
         <br><br>
         <a href="http://localhost/BLABLABLA/aulabanco/form_home.php">Voltar</a>

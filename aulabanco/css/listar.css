@@ -6,16 +6,16 @@ table {
         font-family: "Protest Strike", sans-serif;
         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
       } 
-      th, td{ 
+th, td{ 
                 padding: 12px 15px;
                 border: 1px solid black;
             }
 
-      th 
+th 
         {
            background-color: rgb(68, 134, 247);
             font-weight: bold;
         }
-        tr:hover{
-                    background-color: rgb(95, 254, 92);
-                }
+tr:hover{
+          background-color: rgb(95, 254, 92);
+         }
